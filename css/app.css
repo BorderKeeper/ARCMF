@@ -27,15 +27,11 @@
   font-size: 60px;
 }
 
-.p-shadow p {
-  text-shadow: 1px 1px #000000;
-}
-
 .btn-adjust {
   float: left;
   height: 100%;
   padding: 0 20px;
-  margin: 0 5px;
+  margin: 10px 5px;
   line-height: 50px;
   transition: all .15s ease;
   .btn-adjust:hover {
@@ -65,4 +61,8 @@ body {
   line-height: 1.7;
   color: #000; 
   font-family: "Averia Sans Libre", cursive;
+}
+
+a, a:hover, a:visited {
+  color: #BD2C2C;
 }
