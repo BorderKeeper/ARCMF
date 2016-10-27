@@ -27,13 +27,26 @@
   font-size: 60px;
 }
 
-.h-shadow h1, h2 {
-  text-shadow: 1px 1px #000000;
-}
-
 .p-shadow p {
   text-shadow: 1px 1px #000000;
 }
+
+.btn-adjust {
+  float: left;
+  height: 100%;
+  padding: 0 20px;
+  margin: 0 5px;
+  line-height: 50px;
+  transition: all .15s ease;
+  .btn-adjust:hover {
+    box-shadow: 0 55px 0 #fff inset;
+  }
+}
+
+.no-border {
+  border: none;
+}
+
 section {
   background-position: center;
   background-size: cover;
@@ -48,9 +61,8 @@ html, body {
 
 body {
   background: #FFF;
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 17px;
+  line-height: 1.7;
   color: #000; 
   font-family: "Averia Sans Libre", cursive;
 }
-
