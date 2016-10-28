@@ -37,7 +37,7 @@
 .fadetoblack {
   margin: 0;
   padding: 0;
-  background: linear-gradient(transparent,#1b1b1b)
+  background: linear-gradient(transparent,black)
 }
 
 html, body {
@@ -61,7 +61,7 @@ a, a:hover, a:visited {
 }
 
 #about {
-  background: #1b1b1b;
+  background: #000;
 }
 
 #usage {
