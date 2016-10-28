@@ -46,10 +46,10 @@ h1 {
 
 body {
   background: #1d1d1d;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 100;
-  letter-spacing: 2px;
-  line-height: 1.4;
+  letter-spacing: 4px;
+  line-height: 1.5;
   color: #fff; 
   font-family: "Dosis", sans-serif;
 }
