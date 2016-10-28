@@ -6,8 +6,8 @@
   min-height: 100vh;
 }
 
-.half-size {
-  min-height: 50vh;
+.full-width {
+  min-width: 100vw;
 }
 
 .h-center {
@@ -34,6 +34,12 @@
   border: none;
 }
 
+.fadetoblack {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(transparent,#1b1b1b)
+}
+
 html, body {
   overflow-x: hidden;
   width: 100%;
@@ -42,7 +48,7 @@ html, body {
 
 body {
   background: #1d1d1d;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 100;
   letter-spacing: 2px;
   line-height: 1.45;
