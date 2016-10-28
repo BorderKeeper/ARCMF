@@ -24,30 +24,14 @@
 }
 
 .h-text {
-  font-family: "Lithos Pro", Serif;
-  font-size: 60px;
-}
-
-.btn-adjust {
-  height: 100%;
-  padding: 0 20px;
-  margin: 10px 5px;
-  line-height: 50px;
-  transition: all .15s ease;
-  .btn-adjust:hover {
-    box-shadow: 0 55px 0 #BD2C2C inset;
-  }
+  font-family: "Share Tech Mono", Serif;
+  font-size: 70px;
+  letter-spacing: 40px;
+  padding-left: 50px;
 }
 
 .no-border {
   border: none;
-}
-
-.btn-outline-danger {
-    transition: all .15s ease;
-    .btn-outline-danger:hover {
-    box-shadow: 0 55px 0 #BD2C2C inset;
-  }
 }
 
 html, body {
@@ -63,14 +47,15 @@ h1 {
 
 body {
   background: #1d1d1d;
-  font-size: 24px;
-  line-height: 1;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 1.25;
   color: #fff; 
-  font-family: "Microsoft Yi Baiti", sans-serif;
+  font-family: "Cantarell", sans-serif;
 }
 
 a, a:hover, a:visited {
-  font-size: 20px;
+  font-size: 22px !important;
   color: #BD2C2C;
 }
 
