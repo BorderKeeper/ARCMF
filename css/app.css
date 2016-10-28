@@ -42,12 +42,6 @@
   border: none;
 }
 
-section {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; 
-}
-
 html, body {
   overflow-x: hidden;
   width: 100%;
@@ -55,13 +49,17 @@ html, body {
 }
 
 body {
-  background: #FFF;
+  background: #1b1b1b;
   font-size: 17px;
   line-height: 1.7;
-  color: #000; 
+  color: #fff; 
   font-family: "Averia Sans Libre", cursive;
 }
 
 a, a:hover, a:visited {
   color: #BD2C2C;
+}
+
+#contribute {
+  color: #000;
 }
