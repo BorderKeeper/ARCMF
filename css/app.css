@@ -1,6 +1,7 @@
 .red-head {
   color: #BD2C2C;
 }
+
 .full-size {
   min-height: 100vh;
 }
@@ -49,17 +50,23 @@ html, body {
 }
 
 body {
-  background: #1b1b1b;
+  background: #1d1d1d;
   font-size: 17px;
   line-height: 1.7;
-  color: #fff; 
-  font-family: purista-web, sans-serif;
+  color: #000; 
+  font-family: calibri, sans-serif;
 }
 
 a, a:hover, a:visited {
   color: #BD2C2C;
 }
 
-#contribute {
+
+#header {
+  background: #fff;
   color: #000;
+}
+
+#usage {
+  color: #fff;
 }
