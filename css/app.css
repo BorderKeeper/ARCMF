@@ -27,7 +27,7 @@
   font-family: "Share Tech Mono", Serif;
   font-size: 70px;
   letter-spacing: 40px;
-  padding-left: 50px;
+  padding-left: 45px;
 }
 
 .no-border {
@@ -40,22 +40,17 @@ html, body {
   height: 100%; 
 }
 
-h1 {
-  font-weight: 600;
-}
-
 body {
   background: #1d1d1d;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 100;
-  letter-spacing: 4px;
-  line-height: 1.5;
+  letter-spacing: 2px;
+  line-height: 1.45;
   color: #fff; 
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a, a:hover, a:visited {
-  font-size: 22px !important;
   color: #BD2C2C;
 }
 
