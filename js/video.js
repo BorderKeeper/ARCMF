@@ -5,7 +5,7 @@ $(document).ready(function(e) {
 	$("#video-prev").click(function(event){
 		vidSelector--;
 		if (vidSelector < 0) {
-			vidSelector = 0;
+			vidSelector = 6;
 		}
 		$("#video-player").attr('src',videos[vidSelector]);
 		event.preventDefault();
@@ -14,7 +14,7 @@ $(document).ready(function(e) {
 	$("#video-next").click(function(event){
 		vidSelector++;
 		if (vidSelector > 6) {
-			vidSelector = 6;
+			vidSelector = 0;
 		}
     	$("#video-player").attr('src',videos[vidSelector]);
     	event.preventDefault();
