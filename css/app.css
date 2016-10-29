@@ -44,6 +44,15 @@
   height: 2px;
   background: linear-gradient(transparent, #BD2C2C);
 }
+
+.btn-outline-danger:hover {
+	background: #BD2C2C !important;
+}
+
+.btn-outline-danger:active {
+	border: none !important;
+}
+
 html, body {
   overflow-x: hidden;
   width: 100%;
