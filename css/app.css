@@ -50,19 +50,6 @@
   background: linear-gradient(transparent, #BD2C2C);
 }
 
-.btn-outline-danger {
-	transition: all .30s ease !important;
-}
-.btn-outline-danger:hover {
-	background: #BD2C2C !important;
-	box-shadow: 55px 0 0 #BD2C2C outset;
-}
-
-.btn-outline-danger:focus {
-	background: transparent !important;
-	color: #BD2C2C;
-}
-
 .download {
 	margin-left: -5px;
 	margin-top: 5px;
@@ -98,5 +85,5 @@ a, a:visited, a:hover, a:active, a:focus {
 }
 
 #usage {
-  background: #450000;
+  background: #BD2C2C;
 }
