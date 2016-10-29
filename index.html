@@ -20,6 +20,7 @@
 		<!-- Site stylesheet -->
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 
+		<script src="js/video.js"></script>
 		<title>ARCMF - ARCOMM Mission Framework</title>
 	</head>
 	<body>
@@ -34,15 +35,43 @@
 		<secion class="container-fluid full-size v-center" id="about"> <!-- About -->
 			<div class="container h-center">
 			<h1 class="red-head">About ARCMF</h1>
-			<p>ARCOMM Mission Framework, or ARCMF for short, is the premiere mission framework for ARCOMM. Built on the great <a href="http://ferstaberinde.com/f3/en//index.php?title=About_F3">F3 Mission Framework</a> by Folk ARPS, ARCMF has cut down significantly on unused and irrelevant components (unlike this description) and instead has implemented more efficient and useful functions all around. As with the original F3, the guiding principle is still to enable potential mission makers to bring their idea to life without much hassle, yet also give them the ability to customise their mission to their hearts desire. This way, both new and seasoned mission makers can hop into ARCMF and start working immediately.</p>
-			<p>Currently, a new version of ARCMF, <a href="https://github.com/ARCOMM/ARCMF2">ARCMF2</a> is being developed by the original ARCMF Team. ARCMF2 will feature 3DEN Editor integration along with a shift of backend-assets to mod-form instead of being housed in the mission file. This change will allow ARCMF2's file size to be even smaller than its predecessor. Additionally, 3DEN Editor integration means that potential mission makers will no longer have to scour through dozens of SQF files to find what they need, and can instead customise their mission inside the editor itself, immensely improving workflow and providing more accessibility.</p>
+				<div class="row">
+					<div class="col-md-6 text-center">
+						<h4>Features</h4>
+						<p>ARCMF is a great entry point for novice mission makers. Without a framework, making a mission can be a daunting task; gear scripts, weather scripts and all other sort of fluff has to be scripted, tested, and verified. With ARCMF, we've done that for you. Now, you can fully focus on your mission idea and bring it to life. No hassle, no fluff.</p>
+					</div>
+					<div class="col-md-6 text-center">
+						<h4>Development</h4>
+						<p>Currently, the original ARCMF Team is developing ARCMF2, a continuation of ARCMF. A lot of new features await, such as 3DEN Editor integration and much more. ARCMF2 will be all the more powerful, and all the more accessible to the newcomer. We already think it's great, and we aren't even done yet!</p>
+					</div>
+				</div>
+				<div class="seperator"></div>
+				<div class="row" style="margin-top:10px">
+					<div class="col-md-6 text-center">
+						<p>Mission makers with a bit more experience will also find a lot of features to enjoy with ARCMF. <em>Everything</em> can be customised. Want to change automatic fireteam colors? Go do it. Want to change squad marker names? Go do it. Don't want to change anything? The don't, ARCMF has already done it for you.</p>
+					</div>
+					<div class="col-md-6 text-center">
+						<p>Want to learn more about ARCMF2? Head on over to the <a href="">website</a>! (Coming soon&trade;)</p>
+					</div>
+				</div>
 			</div>
 		</secion>
 		<secion class="container-fluid full-size v-center" id="usage">
 			<div class="container h-center">
 				<h1 class="red-head">Using ARCMF</h1>
-				<p>Using ARCMF is fairly simple: All you will need to do is <a href="https://github.com/ARCOMM/ARCMF/releases">download</a> the latest ARCMF release, place the folder in your <i>Documents > Arma 3 (Other Profiles) > Username > mpmissions</i> folder (create one if it does not exist) and start up 3DEN Editor. Once there, click Open (or press Ctrl + O) and you will see <i>ARCMF.VR</i> in the <i>MPMissions</i> folder.</p>
-				<p>As a starting point, Kingsley has made a <a href="https://github.com/ARCOMM/ARCMF/wiki/Tutorials">video tutorial series</a> which explains the basics of starting out with the ARCOMM Mission Framework.</p>
+				<p class="hidden-xs">Below is a media gallery of Kingsleys tutorial videos for ARCMF.</p>
+					<div class="row">
+						<div class="col-md-12">
+							<iframe width="720" height="512" src="https://youtube.com/embed/XFTR70j_8u0" id="video-player">
+							</iframe>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<button class="btn btn-outline-danger" id="video-prev">&larr;</button>
+							<button class="btn btn-outline-danger" id="video-next">&rarr;</button>
+						</div>
+					</div>
 			</div>
 		</secion>
 		<secion class="container-fluid full-size v-center" id="contribute">

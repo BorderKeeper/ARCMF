@@ -40,6 +40,10 @@
   background: linear-gradient(transparent,black)
 }
 
+.seperator {
+  height: 2px;
+  background: linear-gradient(transparent, #BD2C2C);
+}
 html, body {
   overflow-x: hidden;
   width: 100%;
@@ -54,6 +58,10 @@ body {
   line-height: 1.45;
   color: #fff; 
   font-family: "Roboto", sans-serif;
+}
+
+iframe {
+  border: none;
 }
 
 a, a:hover, a:visited {
