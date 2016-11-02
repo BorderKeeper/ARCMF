@@ -31,10 +31,16 @@
 }
 
 .highlight {
-	font-size: 24px;
+	font-size: 28px;
 	text-transform: uppercase;
+  margin: 10px 0 10px 0;
 }
 
+.strike-text {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
 .no-border {
   border: none;
 }
