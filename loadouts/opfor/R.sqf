@@ -1,0 +1,17 @@
+this forceAddUniform "CUP_U_O_RUS_EMR_1";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 2 do {this addItemToUniform "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToUniform "MiniGrenade";};
+this addVest "CUP_V_I_RACS_Carrier_Vest_wdl_3";
+for "_i" from 1 to 6 do {this addItemToVest "CUP_30Rnd_545x39_AK_M";};
+for "_i" from 1 to 3 do {this addItemToVest "CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M";};
+this addHeadgear "CUP_H_RUS_6B27_NVG_olive";
+this addWeapon "CUP_arifle_AK107";
+this addPrimaryWeaponItem "CUP_optic_Kobra";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "CUP_NVG_PVS14";
